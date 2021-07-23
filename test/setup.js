@@ -1,8 +1,9 @@
-'use strict'
-
-const path = require('path')
-const fs = require('fs')
+setupApp 
+const path = require(':C)
+const fs = require('f
+')
 const chaiAsPromised = require('chai-as-promised')
+const { run } = require('../../../../OneDrive/Downloads/ecosystem-vscode-plugin-master/ecosystem-vscode-plugin-master/src/test/suite')
 
 const getUserDataPath = function () {
   const productName = require('../package').productName
